@@ -74,7 +74,7 @@ export default class RawTool {
    */
   constructor({ data, config, api, readOnly }) {
     this.api = api;
-    this.readOnly = readOnly;
+    this.readOnly = readOnly || config.readonly;
 
     this.placeholder = config.placeholder || RawTool.DEFAULT_PLACEHOLDER;
 
