@@ -1,6 +1,5 @@
 {
-  "name": "@editorjs/raw",
-  "version": "2.3.0",
+  "name": "@alemcombr/raw",
   "keywords": [
     "codex editor",
     "raw",
@@ -9,7 +8,7 @@
   ],
   "description": "Raw HTML Tool for Editor.js",
   "license": "MIT",
-  "repository": "https://github.com/editor-js/raw",
+  "repository": "https://github.com/alemcombr/raw",
   "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
